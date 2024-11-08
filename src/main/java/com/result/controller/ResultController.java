@@ -33,8 +33,12 @@ return rs.totalwithpercentage(total2);
 @GetMapping(value="/getall")
 public List<Result> getAll()
 {
+	System.out.println("Hello");
 return rs.getAll();
 }
+
+
+
 @GetMapping(value="/topper")
 public int topper()
 {
