@@ -22,6 +22,7 @@ public class ResultDao {
 	}
 	public List<Result> getAll()
 	{
+		System.out.println("");
 	return rr.findAll();
 	}
 	public int topper()

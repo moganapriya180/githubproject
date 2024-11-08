@@ -21,6 +21,7 @@ public class Result {
 		return id;
 	}
 	public void setId(int id) {
+		System.out.println("");
 		this.id = id;
 	}
 	public int getRollnumber() {
